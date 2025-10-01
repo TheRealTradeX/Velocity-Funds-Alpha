@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Velocity Funds Icon</title>
+  <desc id="desc">An abstract growth icon with three rising bars blended into an upward swoosh arrow, in color #34d399 on a transparent background.</desc>
+
+  <!-- Color token -->
+  <defs>
+    <style type="text/css"><![CDATA[
+      .vf { fill: #34d399; }
+    ]]></style>
+  </defs>
+
+  <!-- Three rising bars (rounded) -->
+  <rect class="vf" x="96"  y="296" width="48" height="104" rx="12"/>
+  <rect class="vf" x="168" y="264" width="48" height="136" rx="12"/>
+  <rect class="vf" x="240" y="232" width="48" height="168" rx="12"/>
+
+  <!-- Upward swoosh + arrowhead (single filled path) -->
+  <path class="vf" d="
+    M96,384
+    c58,0 106.5-14.5 140-46
+    c33.5-31.5 46.5-75.5 46.5-139.5
+    c0-4.5 3.5-8 8-8h0
+    c3,0 5.9,1.4 7.6,3.8l32.3,44.7
+    c2.6,3.6 7.6,4.4 11.2,1.8l62.7-45
+    c3.6-2.6 4.4-7.6 1.8-11.2l-45-62.7
+    c-2.6-3.6-7.6-4.4-11.2-1.8l-44.7,32.3
+    c-2.4,1.7-3.8,4.6-3.8,7.6v0
+    c0,72.5-17.7,122.4-57.1,156.4
+    C217.9,340.9 166.9,356 96,356
+    c-7.3,0-13.1,5.9-13.1,13.1v1.8
+    C82.9,378.1 88.7,384 96,384z" />
+</svg>
